@@ -9,5 +9,5 @@ public class NotadApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(NotadApplication.class, args);
 	}
-
+ //GH
 }
