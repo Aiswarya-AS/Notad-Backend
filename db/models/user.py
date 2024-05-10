@@ -13,6 +13,6 @@ class User(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     username: Mapped[str]
     email: Mapped[str] = mapped_column(String(30))
-    password: Mapped[str] = mapped_column(String(30))
+    password: Mapped[str] = mapped_column(String(500))
     is_superuser: Mapped[bool] = Column(Boolean)
     is_active: Mapped[bool] = Column(Boolean)
